@@ -1,0 +1,46 @@
+version: '3.8'
+services:
+  api-gateway:
+    build: ./ApiGateway
+    container_name: api-gateway
+    ports:
+      - "8000:80"
+    depends_on:
+      - file-storage-service
+      - file-analysis-service
+
+  file-storage-service:
+    build: ./FileStorageService
+    container_name: file-storage-service
+    ports:
+      - "5001:80"
+    volumes:
+      - filedata:/app/UploadedFiles
+
+  file-analysis-service:
+    build: ./FileAnalysisService
+    container_name: file-analysis-service
+    ports:
+      - "5002:80"
+    depends_on:
+      - file-storage-service
+      - db
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=analysis_db;Username=postgres;Password=postgres
+      - FileStorageServiceUrl=http://file-storage-service
+
+  db:
+    image: postgres:15
+    container_name: postgres-db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=analysis_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  filedata:
+  pgdata:

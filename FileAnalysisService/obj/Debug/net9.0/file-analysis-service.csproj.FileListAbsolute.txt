@@ -1,0 +1,14 @@
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\bin\Debug\net9.0\file-analysis-service.exe
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\bin\Debug\net9.0\file-analysis-service.deps.json
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\bin\Debug\net9.0\file-analysis-service.runtimeconfig.json
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\bin\Debug\net9.0\file-analysis-service.dll
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\bin\Debug\net9.0\file-analysis-service.pdb
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\file-analysis-service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\file-analysis-service.AssemblyInfoInputs.cache
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\file-analysis-service.AssemblyInfo.cs
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\file-analysis-service.csproj.CoreCompileInputs.cache
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\file-analysis-service.dll
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\refint\file-analysis-service.dll
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\file-analysis-service.pdb
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\file-analysis-service.genruntimeconfig.cache
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-analysis-service\obj\Debug\net9.0\ref\file-analysis-service.dll

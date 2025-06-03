@@ -1,0 +1,14 @@
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\bin\Debug\net9.0\file-storage-service.exe
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\bin\Debug\net9.0\file-storage-service.deps.json
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\bin\Debug\net9.0\file-storage-service.runtimeconfig.json
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\bin\Debug\net9.0\file-storage-service.dll
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\bin\Debug\net9.0\file-storage-service.pdb
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\file-storage-service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\file-storage-service.AssemblyInfoInputs.cache
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\file-storage-service.AssemblyInfo.cs
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\file-storage-service.csproj.CoreCompileInputs.cache
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\file-storage-service.dll
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\refint\file-storage-service.dll
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\file-storage-service.pdb
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\file-storage-service.genruntimeconfig.cache
+C:\Users\bembi\Desktop\Учеба\КПО\CW-2\file-storage-service\obj\Debug\net9.0\ref\file-storage-service.dll

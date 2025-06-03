@@ -1,0 +1,60 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  api-gateway:
+    build:
+      context: "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2\\ApiGateway"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ApiGateway.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "apigateway:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2\\ApiGateway:/app:rw"
+    - "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2:/src:rw"
+    - "C:\\Users\\bembi\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  file-analysis-service:
+    build:
+      context: "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2\\FileAnalysisService"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/FileAnalysisService.dll"
+    environment:
+      DOTNET_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "fileanalysisservice:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2\\FileAnalysisService:/app:rw"
+    - "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2:/src:rw"
+    - "C:\\Users\\bembi\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  file-storage-service:
+    build:
+      context: "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2\\FileStorageService"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/FileStorageService.dll"
+    environment:
+      DOTNET_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "filestorageservice:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2\\FileStorageService:/app:rw"
+    - "C:\\Users\\bembi\\Desktop\\Учеба\\КПО\\CW-2:/src:rw"
+    - "C:\\Users\\bembi\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"

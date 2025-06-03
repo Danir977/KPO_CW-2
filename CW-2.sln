@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{30C00CAF-6B70-4E22-AA5F-F1E50F58EC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorageService", "FileStorageService\FileStorageService.csproj", "{9222823C-FD1A-483B-824F-796CC4CE4ED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAnalysisService", "FileAnalysisService\FileAnalysisService.csproj", "{88BFA02F-58E8-474C-9E12-AB5946E2E995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30C00CAF-6B70-4E22-AA5F-F1E50F58EC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C00CAF-6B70-4E22-AA5F-F1E50F58EC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C00CAF-6B70-4E22-AA5F-F1E50F58EC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C00CAF-6B70-4E22-AA5F-F1E50F58EC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9222823C-FD1A-483B-824F-796CC4CE4ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9222823C-FD1A-483B-824F-796CC4CE4ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9222823C-FD1A-483B-824F-796CC4CE4ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9222823C-FD1A-483B-824F-796CC4CE4ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BFA02F-58E8-474C-9E12-AB5946E2E995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BFA02F-58E8-474C-9E12-AB5946E2E995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BFA02F-58E8-474C-9E12-AB5946E2E995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BFA02F-58E8-474C-9E12-AB5946E2E995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
